@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System-supporting-the-management-of-Paper-Mill", "System-supporting-the-management-of-Paper-Mill\System-supporting-the-management-of-Paper-Mill.csproj", "{9AC1D23E-878D-4525-9861-B3B1CA5A440A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC1D23E-878D-4525-9861-B3B1CA5A440A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AC1D23E-878D-4525-9861-B3B1CA5A440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AC1D23E-878D-4525-9861-B3B1CA5A440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AC1D23E-878D-4525-9861-B3B1CA5A440A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E635ACF4-26EF-4F6F-9F4F-2C6EA46AFB87}
+	EndGlobalSection
+EndGlobal
