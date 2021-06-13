@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace System_supporting_the_management_of_Paper_Mill
 {
-    public partial class Panel_główny : Form
+    public partial class Administrator : Form
     {
-        public Panel_główny()
+        
+        public Administrator()
         {
             InitializeComponent();
         }
@@ -36,31 +38,20 @@ namespace System_supporting_the_management_of_Paper_Mill
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Panel w przygotowaniu");
+            Adm_display a = new Adm_display();
+            a.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Panel w przygotowaniu");
+            Adm_add ad = new Adm_add();
+            ad.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            BazyDanych baz = new BazyDanych();
-            baz.Show();
-            this.Hide();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Kalkulacje kal = new Kalkulacje();
-            kal.Show();
-            this.Hide();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Panel w przygotowaniu");
+            Adm_errors er = new Adm_errors();
+            er.Show();
         }
     }
 }

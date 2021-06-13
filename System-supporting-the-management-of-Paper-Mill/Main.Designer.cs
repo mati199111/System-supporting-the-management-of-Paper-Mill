@@ -33,6 +33,9 @@
             this.plikToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.administratorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zamknijToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ekranGłównyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pomocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kontaktToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,9 +44,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.pomocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kontaktToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ekranGłównyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -64,8 +64,8 @@
             // 
             this.plikToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.administratorToolStripMenuItem,
-            this.zamknijToolStripMenuItem,
-            this.ekranGłównyToolStripMenuItem});
+            this.ekranGłównyToolStripMenuItem,
+            this.zamknijToolStripMenuItem});
             this.plikToolStripMenuItem.Name = "plikToolStripMenuItem";
             this.plikToolStripMenuItem.Size = new System.Drawing.Size(46, 24);
             this.plikToolStripMenuItem.Text = "Plik";
@@ -83,6 +83,28 @@
             this.zamknijToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.zamknijToolStripMenuItem.Text = "Zamknij";
             this.zamknijToolStripMenuItem.Click += new System.EventHandler(this.zamknijToolStripMenuItem_Click);
+            // 
+            // ekranGłównyToolStripMenuItem
+            // 
+            this.ekranGłównyToolStripMenuItem.Name = "ekranGłównyToolStripMenuItem";
+            this.ekranGłównyToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.ekranGłównyToolStripMenuItem.Text = "Ekran główny";
+            this.ekranGłównyToolStripMenuItem.Click += new System.EventHandler(this.ekranGłównyToolStripMenuItem_Click);
+            // 
+            // pomocToolStripMenuItem
+            // 
+            this.pomocToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.kontaktToolStripMenuItem});
+            this.pomocToolStripMenuItem.Name = "pomocToolStripMenuItem";
+            this.pomocToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.pomocToolStripMenuItem.Text = "Pomoc";
+            // 
+            // kontaktToolStripMenuItem
+            // 
+            this.kontaktToolStripMenuItem.Name = "kontaktToolStripMenuItem";
+            this.kontaktToolStripMenuItem.Size = new System.Drawing.Size(143, 26);
+            this.kontaktToolStripMenuItem.Text = "Kontakt";
+            this.kontaktToolStripMenuItem.Click += new System.EventHandler(this.kontaktToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -152,6 +174,7 @@
             this.button1.Text = "Zaloguj";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Enter += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -163,28 +186,6 @@
             this.button2.Text = "?";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // pomocToolStripMenuItem
-            // 
-            this.pomocToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kontaktToolStripMenuItem});
-            this.pomocToolStripMenuItem.Name = "pomocToolStripMenuItem";
-            this.pomocToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
-            this.pomocToolStripMenuItem.Text = "Pomoc";
-            // 
-            // kontaktToolStripMenuItem
-            // 
-            this.kontaktToolStripMenuItem.Name = "kontaktToolStripMenuItem";
-            this.kontaktToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.kontaktToolStripMenuItem.Text = "Kontakt";
-            this.kontaktToolStripMenuItem.Click += new System.EventHandler(this.kontaktToolStripMenuItem_Click);
-            // 
-            // ekranGłównyToolStripMenuItem
-            // 
-            this.ekranGłównyToolStripMenuItem.Name = "ekranGłównyToolStripMenuItem";
-            this.ekranGłównyToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.ekranGłównyToolStripMenuItem.Text = "Ekran główny";
-            this.ekranGłównyToolStripMenuItem.Click += new System.EventHandler(this.ekranGłównyToolStripMenuItem_Click);
             // 
             // Main
             // 

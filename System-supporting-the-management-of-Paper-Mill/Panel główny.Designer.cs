@@ -37,15 +37,15 @@
             this.pomocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -81,21 +81,21 @@
             // ekranGłównyToolStripMenuItem
             // 
             this.ekranGłównyToolStripMenuItem.Name = "ekranGłównyToolStripMenuItem";
-            this.ekranGłównyToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.ekranGłównyToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.ekranGłównyToolStripMenuItem.Text = "Ekran Główny";
             this.ekranGłównyToolStripMenuItem.Click += new System.EventHandler(this.ekranGłównyToolStripMenuItem_Click);
             // 
             // ekranLogowaniaToolStripMenuItem
             // 
             this.ekranLogowaniaToolStripMenuItem.Name = "ekranLogowaniaToolStripMenuItem";
-            this.ekranLogowaniaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.ekranLogowaniaToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.ekranLogowaniaToolStripMenuItem.Text = "Ekran logowania";
             this.ekranLogowaniaToolStripMenuItem.Click += new System.EventHandler(this.ekranLogowaniaToolStripMenuItem_Click);
             // 
             // zamknijToolStripMenuItem
             // 
             this.zamknijToolStripMenuItem.Name = "zamknijToolStripMenuItem";
-            this.zamknijToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.zamknijToolStripMenuItem.Size = new System.Drawing.Size(202, 26);
             this.zamknijToolStripMenuItem.Text = "Zamknij";
             this.zamknijToolStripMenuItem.Click += new System.EventHandler(this.zamknijToolStripMenuItem_Click);
             // 
@@ -115,6 +115,7 @@
             this.label1.Size = new System.Drawing.Size(262, 38);
             this.label1.TabIndex = 1;
             this.label1.Text = "Plany produkcyjne";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel1
             // 
@@ -142,6 +143,50 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(537, 190);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button5.Location = new System.Drawing.Point(271, 155);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(263, 32);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "PRZEJDŹ";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button4.Location = new System.Drawing.Point(271, 117);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(263, 32);
+            this.button4.TabIndex = 9;
+            this.button4.Text = "PRZEJDŹ";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.Location = new System.Drawing.Point(271, 79);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(263, 32);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "PRZEJDŹ";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button2.Location = new System.Drawing.Point(271, 41);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(263, 32);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "PRZEJDŹ";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -152,6 +197,7 @@
             this.label2.Size = new System.Drawing.Size(262, 38);
             this.label2.TabIndex = 2;
             this.label2.Text = "Dokumenty produkcyjne";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -163,6 +209,7 @@
             this.label3.Size = new System.Drawing.Size(262, 38);
             this.label3.TabIndex = 3;
             this.label3.Text = "Bazy danych";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -174,6 +221,7 @@
             this.label4.Size = new System.Drawing.Size(262, 38);
             this.label4.TabIndex = 4;
             this.label4.Text = "Kalkulacje";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
             // 
@@ -185,6 +233,7 @@
             this.label5.Size = new System.Drawing.Size(262, 38);
             this.label5.TabIndex = 5;
             this.label5.Text = "Wizualizacja danych";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // button1
             // 
@@ -195,46 +244,7 @@
             this.button1.TabIndex = 6;
             this.button1.Text = "PRZEJDŹ";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button2.Location = new System.Drawing.Point(271, 41);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(263, 32);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "PRZEJDŹ";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.Location = new System.Drawing.Point(271, 79);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(263, 32);
-            this.button3.TabIndex = 8;
-            this.button3.Text = "PRZEJDŹ";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button4.Location = new System.Drawing.Point(271, 117);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(263, 32);
-            this.button4.TabIndex = 9;
-            this.button4.Text = "PRZEJDŹ";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button5.Location = new System.Drawing.Point(271, 155);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(263, 32);
-            this.button5.TabIndex = 10;
-            this.button5.Text = "PRZEJDŹ";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
