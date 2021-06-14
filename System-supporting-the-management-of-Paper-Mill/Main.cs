@@ -13,6 +13,7 @@ namespace System_supporting_the_management_of_Paper_Mill
 {
     public partial class Main : Form
     {
+        
         SqlConnection conn = null;
         public Main()
         {
@@ -62,7 +63,11 @@ namespace System_supporting_the_management_of_Paper_Mill
                 {
                     MessageBox.Show("Logowanie udane");
                     this.Hide();
-                    new Panel_główny().ShowDialog();
+                    //new Panel_główny().ShowDialog();
+                    Panel_główny pg = new Panel_główny();
+                    pg._textBox = _textBox1; //przekazywanie parametru
+                    pg.Show();
+
                 }
                 else
                 {
@@ -79,6 +84,12 @@ namespace System_supporting_the_management_of_Paper_Mill
                 conn.Close();
             }
         }
+        #region przekazywanie parametru 
+        public string _textBox1
+        {
+            get { return textBox1.Text; }
+        }
+        #endregion
         #endregion
         private void ekranGłównyToolStripMenuItem_Click(object sender, EventArgs e)
         {

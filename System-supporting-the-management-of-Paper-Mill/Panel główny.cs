@@ -62,5 +62,11 @@ namespace System_supporting_the_management_of_Paper_Mill
         {
             MessageBox.Show("Panel w przygotowaniu");
         }
+        #region odczytanie wartosci parametru i przypisanie wartosci do label6
+        public string _textBox
+        {
+            set { label6.Text = value; }
+        }
+        #endregion
     }
 }
